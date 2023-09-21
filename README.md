@@ -1,6 +1,6 @@
 # Descrição:
 
-Projeto destinado a fazer download de um arquivo no s3 e publicar no kafka.
+Projeto destinado a fazer download de um arquivo no s3 e publicar no kafka usando node Streams e async generator.
 
 ## 1 - Existe um docker-compose para subir o kafka e o S3, vc pode ver os tópicos pelo control-center na porta 9021 pela url http://127.0.0.1:9021
 
@@ -37,6 +37,8 @@ aws --endpoint-url=http://127.0.0.1:9000 s3 cp file5M.csv s3://my-bucket/
 ```bash
 $npx ts-node index.ts
 ```
+
+
 
 
 # 
